@@ -1,0 +1,56 @@
+body {
+  background: linear-gradient(to right, orange, rgb(254, 76, 76));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.to-do {
+  background: linear-gradient(to right, orange, red);
+  backdrop-filter: blur(20px);
+  margin-top: 200px;
+  width: 600px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  row-gap: 20px;
+}
+.to-do h2 {
+  font-size: 40px;
+  color: white;
+}
+#input-element {
+  width: 300px;
+  height: 35px;
+  border-radius: 15px;
+  border: 0px;
+  padding-left: 15px;
+}
+#add-btn {
+  width: 100px;
+  height: 35px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  border: 0px;
+}
+#deleteAll {
+  width: 80px;
+  border-radius: 5px;
+  background-color: rgb(225, 225, 225, );
+  border: 0px;
+}
+.li-style{
+    color: white;
+    font-size: 20px;
+    border: 1px solid yellow;
+    min-width: 300px;
+    border-radius: 5px;
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2px;
+}
+
